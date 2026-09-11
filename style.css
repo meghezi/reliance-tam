@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
 }
 
 .container {
@@ -17,22 +17,30 @@ body {
 
 /* En-tête */
 header {
-    background: linear-gradient(135deg, #a16cd9 0%, #8e27ec 100%);
-    color: white;
+    background: #b9f1aa;
+    padding: 2rem 0;
     text-align: center;
-    padding: 4rem 0;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5rem;
     font-weight: 700;
+    color: #000000;
 }
 
 .tagline {
     font-size: 1.2rem;
+    color: #000000;
     opacity: 0.9;
     margin-top: 0.5rem;
+}
+
+/* Logo ReLiance dans l'en-tête */
+header img {
+    max-width: 250px;
+    background-color: #000000;
+    padding: 1.5rem;
 }
 
 /* Sections */
@@ -49,7 +57,6 @@ header h1 {
 
 /* Cartes pour les spécialités */
 .specialty-card {
-    background-color: #f8f9fa;
     padding: 1rem 1.5rem;
     border-radius: 8px;
     font-weight: 600;
@@ -64,7 +71,6 @@ header h1 {
 }
 
 .feature-list li {
-    background-color: rgba(142, 39, 236, 0.1);
     margin-bottom: 0.8rem;
     padding: 0.8rem 1.5rem;
     border-left: 4px solid #8e27ec;
@@ -77,21 +83,25 @@ header h1 {
     margin-bottom: 2rem;
     padding-left: 2rem;
     border-left: 4px solid #8e27ec;
-    background-color: rgba(142, 39, 236, 0.05);
     padding: 1rem;
 }
 
 .timeline-item h3 {
-    color: #8e27ec;
     margin-bottom: 0.5rem;
 }
 
 /* Pied de page */
 footer {
-    background-color: #1a1a2e;
+    background-color: #000000;
     color: white;
     text-align: center;
     padding: 2rem 0;
+}
+
+footer img {
+    max-width: 150px;
+    background-color: #000000;
+    padding: 1rem;
 }
 
 footer a {
@@ -129,11 +139,5 @@ a:hover {
 
     .section {
         padding: 2rem 0;
-    }
-
-    /* Alignement des cartes en colonne sur mobile */
-    .specialty-cards {
-        flex-direction: column;
-        align-items: center;
     }
 }
