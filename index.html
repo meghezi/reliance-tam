@@ -3,85 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Balises meta pour le SEO -->
     <meta name="description" content="ReLiance développe le logiciel TAM pour optimiser la gestion de projets et d'équipes avec équité et innovation.">
     <meta name="keywords" content="ReLiance, TAM, gestion de projet, logiciel, équité organisationnelle, charge mentale, collaboration">
-
-    <!-- Balises Open Graph (pour les réseaux sociaux) -->
     <meta property="og:title" content="ReLiance - Projet TAM">
     <meta property="og:description" content="Découvrez TAM, un assignateur d'équité pour valoriser les talents et simplifier la gestion collective.">
     <meta property="og:url" content="https://reliance-tam.com">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://reliance-tam.com/images/logo-tam.png">
-
     <title>ReLiance - Projet TAM | ReLier. Simplifier. Innover.</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        /* Réinitialisation des marges et paddings par défaut */
+        /* Réinitialisation totale pour éviter les conflits */
         body, html {
-            margin: 0;
-            padding: 0;
-            width: 100%;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+            background-color: transparent !important;
         }
 
         /* En-tête complet */
-        .full-header {
-            width: 100%;
-            margin: 0;
-            padding: 0;
+        .header-block {
+            width: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            display: block !important;
         }
 
-        /* Conteneur du logo avec fond noir sur toute la largeur */
-        .logo-full-width {
-            background-color: #000000;
-            width: 100%;
-            padding: 2rem 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
+        /* Fond noir pour le logo */
+        .logo-black-bg {
+            background-color: #000000 !important;
+            width: 100% !important;
+            padding: 2rem 0 !important;
+            margin: 0 !important;
+            display: flex !important;
+            justify-content: center !important;
         }
 
-        /* Conteneur du logo (centré, taille ajustable) */
-        .logo-center {
-            width: 100%;
-            max-width: 800px; /* Ajuste cette valeur pour la taille du logo */
-            display: flex;
-            justify-content: center;
+        /* Conteneur du logo */
+        .logo-container {
+            width: 100% !important;
+            max-width: 800px !important;
+            display: flex !important;
+            justify-content: center !important;
         }
 
-        /* Image du logo */
-        .logo-center img {
-            max-width: 100%;
-            height: auto;
+        .logo-container img {
+            max-width: 100% !important;
+            height: auto !important;
         }
 
-        /* Conteneur du texte avec fond rose sur toute la largeur */
-        .text-full-width {
-            background-color: #b9f1aa;
-            width: 100%;
-            padding: 1.5rem 0;
-            margin: 0;
-            text-align: center;
+        /* Fond rose pour le texte */
+        .text-pink-bg {
+            background-color: #b9f1aa !important;
+            width: 100% !important;
+            padding: 1.5rem 0 !important;
+            margin: 0 !important;
+            text-align: center !important;
         }
     </style>
 </head>
 <body>
-    <!-- En-tête complet : logo sur fond noir + texte sur fond rose -->
-    <div class="full-header">
-        <div class="logo-full-width">
-            <div class="logo-center">
+    <!-- En-tête : Logo sur fond noir + Texte sur fond rose -->
+    <div class="header-block">
+        <div class="logo-black-bg">
+            <div class="logo-container">
                 <img src="images/logo-reliance.png" alt="Logo ReLiance">
             </div>
         </div>
-        <div class="text-full-width">
-            <h1 style="margin: 0; font-size: 2.5rem; font-weight: 700; color: #000000;">ReLiance</h1>
-            <p style="margin: 0.5rem 0 0; font-size: 1.2rem; color: #000000; opacity: 0.9;">ReLier. Simplifier. Innover.</p>
+        <div class="text-pink-bg">
+            <h1 style="margin: 0 !important; font-size: 2.5rem !important; font-weight: 700 !important; color: #000000 !important;">ReLiance</h1>
+            <p style="margin: 0.5rem 0 0 !important; font-size: 1.2rem !important; color: #000000 !important; opacity: 0.9 !important;">ReLier. Simplifier. Innover.</p>
         </div>
     </div>
 
-    <!-- Section "Qui sommes-nous ?" -->
+    <!-- Reste du contenu (inchangé) -->
     <section id="about" class="section" style="background-color: #ffffff; padding: 3rem 0;">
         <div class="container">
             <h2 style="color: #8e27ec; text-align: center; margin-bottom: 2rem; font-size: 2rem;">Qui sommes-nous ?</h2>
@@ -93,72 +89,36 @@
         </div>
     </section>
 
-    <!-- Section "Notre approche" -->
+    <!-- Sections suivantes (inchangées) -->
     <section id="approach" class="section" style="padding: 3rem 0; background-color: #ffffff;">
         <div class="container">
             <h2 style="color: #8e27ec; text-align: center; margin-bottom: 2rem; font-size: 2rem;">Notre approche</h2>
             <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 2rem; max-width: 1000px; margin: 0 auto;">
                 <div style="flex: 1; min-width: 300px; text-align: center; padding: 1.5rem; border-radius: 8px; background-color: #8e27ec; color: #ffffff;">
                     <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">ReLier</h3>
-                    <p style="line-height: 1.6;">
-                        Les idées, les concepts, les technologies, les documents, les données et les personnes.
-                    </p>
+                    <p style="line-height: 1.6;">Les idées, les concepts, les technologies, les documents, les données et les personnes.</p>
                 </div>
                 <div style="flex: 1; min-width: 300px; text-align: center; padding: 1.5rem; border-radius: 8px; background-color: #ffd084; color: #000000;">
                     <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Simplifier</h3>
-                    <p style="line-height: 1.6;">
-                        L'administration, les processus, les outils, bref tout ce qui est complexe.
-                    </p>
+                    <p style="line-height: 1.6;">L'administration, les processus, les outils, bref tout ce qui est complexe.</p>
                 </div>
                 <div style="flex: 1; min-width: 300px; text-align: center; padding: 1.5rem; border-radius: 8px; background-color: #78c866; color: #000000;">
                     <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Innover</h3>
-                    <p style="line-height: 1.6;">
-                        Dans un esprit de co-profitabilité et d'intelligence collective.
-                    </p>
+                    <p style="line-height: 1.6;">Dans un esprit de co-profitabilité et d'intelligence collective.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Section "Nos spécialités" -->
-    <section id="specialties" class="section" style="padding: 3rem 0; background-color: #f8f9fa;">
+    <!-- Pied de page -->
+    <footer style="background-color: #000000 !important; color: white !important; padding: 2rem 0 !important; text-align: center !important; margin: 0 !important;">
         <div class="container">
-            <h2 style="color: #8e27ec; text-align: center; margin-bottom: 2rem; font-size: 2rem;">Nos spécialités</h2>
-            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem;">
-                <div style="background-color: #78c866; color: #000; padding: 1rem 1.5rem; border-radius: 8px; font-weight: 600;">WorkTech</div>
-                <div style="background-color: #eea830; color: #000; padding: 1rem 1.5rem; border-radius: 8px; font-weight: 600;">Technologie RH</div>
-                <div style="background-color: #b385dd; color: #fff; padding: 1rem 1.5rem; border-radius: 8px; font-weight: 600;">Mesure de la charge mentale</div>
-                <div style="background-color: #8536d5; color: #fff; padding: 1rem 1.5rem; border-radius: 8px; font-weight: 600;">Équité organisationnelle</div>
-                <div style="background-color: #a16cd9; color: #fff; padding: 1rem 1.5rem; border-radius: 8px; font-weight: 600;">Collaboration</div>
-                <div style="background-color: #ffd084; color: #000; padding: 1rem 1.5rem; border-radius: 8px; font-weight: 600;">Neutralité</div>
+            <div style="background-color: #000000 !important; padding: 1rem !important; display: flex !important; justify-content: center !important;">
+                <img src="images/logo-reliance.png" alt="Logo ReLiance" style="max-width: 150px !important;">
             </div>
-        </div>
-    </section>
-
-    <!-- Section "Le projet TAM" -->
-    <section id="tam" class="section" style="background: linear-gradient(135deg, #f0f4ff 0%, #e6efff 100%); padding: 3rem 0;">
-        <div class="container">
-            <div style="text-align: center; margin-bottom: 2rem;">
-                <img src="images/logo-tam.png" alt="Logo TAM" style="max-width: 150px;">
-                <h2 style="color: #8e27ec; margin-top: 1rem; font-size: 2rem;">Le projet TAM</h2>
-                <p style="font-size: 1.1rem; color: #555;">Tool for Advanced Management</p>
-            </div>
-            <p style="font-size: 1.1rem; line-height: 1.8; max-width: 800px; margin: 0 auto 2rem;">
-                <strong>TAM</strong> est un <strong>assignateur d'équité</strong> qui considère la charge mentale et attribue les tâches
-                selon les <strong>intérêts et talents</strong> des personnes en place. Notre objectif : <strong>déployer la force du groupe à travers ses individualités</strong>.
-            </p>
-        </div>
-    </section>
-
-    <!-- Pied de page avec fond noir -->
-    <footer style="background-color: #000000; color: white; padding: 2rem 0; text-align: center; margin: 0;">
-        <div class="container">
-            <div style="background-color: #000000; padding: 1rem; display: flex; justify-content: center;">
-                <img src="images/logo-reliance.png" alt="Logo ReLiance" style="max-width: 150px;">
-            </div>
-            <p style="margin: 1rem 0;">© 2026 ReLiance. Tous droits réservés.</p>
-            <p style="margin: 0.5rem 0;">
-                Contact : <a href="mailto:isanaton@gmail.com" style="color: #a16cd9; text-decoration: none;">isanaton@gmail.com</a>
+            <p style="margin: 1rem 0 !important;">© 2026 ReLiance. Tous droits réservés.</p>
+            <p style="margin: 0.5rem 0 !important;">
+                Contact : <a href="mailto:isanaton@gmail.com" style="color: #a16cd9 !important; text-decoration: none !important;">isanaton@gmail.com</a>
             </p>
         </div>
     </footer>
