@@ -19,18 +19,21 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        /* Style spécifique pour l'en-tête avec logo élargi */
-        .header-logo-container {
+        /* Style pour l'en-tête */
+        .header-full {
+            width: 100%;
+            text-align: center;
+        }
+        .logo-container {
             background-color: #000000;
             width: 100%;
             padding: 2rem 0;
             display: flex;
             justify-content: center;
-            align-items: center;
         }
         .logo-wrapper {
             width: 100%;
-            max-width: 600px; /* Ajuste cette valeur pour élargir ou rétrécir le logo */
+            max-width: 600px;
             display: flex;
             justify-content: center;
         }
@@ -38,22 +41,23 @@
             max-width: 100%;
             height: auto;
         }
-        .header-text-container {
+        .text-container {
             background-color: #b9f1aa;
+            width: 100%;
             padding: 1.5rem 0;
             text-align: center;
         }
     </style>
 </head>
 <body>
-    <!-- En-tête avec logo ReLiance élargi sur fond noir -->
-    <header>
-        <div class="header-logo-container">
+    <!-- En-tête avec logo ReLiance élargi sur fond noir et texte sur fond rose -->
+    <header class="header-full">
+        <div class="logo-container">
             <div class="logo-wrapper">
                 <img src="images/logo-reliance.png" alt="Logo ReLiance">
             </div>
         </div>
-        <div class="header-text-container">
+        <div class="text-container">
             <h1 style="margin: 0; font-size: 2.5rem; font-weight: 700; color: #000000;">ReLiance</h1>
             <p class="tagline" style="font-size: 1.2rem; margin-top: 0.5rem; color: #000000; opacity: 0.9;">ReLier. Simplifier. Innover.</p>
         </div>
@@ -71,26 +75,26 @@
         </div>
     </section>
 
-        <!-- Section "Notre approche" -->
+    <!-- Section "Notre approche" -->
     <section id="approach" class="section" style="padding: 3rem 0; background-color: #ffffff;">
         <div class="container">
             <h2 style="color: #8e27ec; text-align: center; margin-bottom: 2rem; font-size: 2rem;">Notre approche</h2>
             <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 2rem; max-width: 1000px; margin: 0 auto;">
-                <div style="flex: 1; min-width: 300px; text-align: center; padding: 1.5rem; border-radius: 8px; background-color: #8e27ec;">
-                    <h3 style="color: #ffffff; font-size: 1.5rem; margin-bottom: 1rem;">ReLier</h3>
-                    <p style="line-height: 1.6; color: #000000;">
+                <div style="flex: 1; min-width: 300px; text-align: center; padding: 1.5rem; border-radius: 8px; background-color: #8e27ec; color: #ffffff;">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">ReLier</h3>
+                    <p style="line-height: 1.6;">
                         Les idées, les concepts, les technologies, les documents, les données et les personnes.
                     </p>
                 </div>
-                <div style="flex: 1; min-width: 300px; text-align: center; padding: 1.5rem; border-radius: 8px; background-color: #b9f1aa;">
-                    <h3 style="color: #ffffff; font-size: 1.5rem; margin-bottom: 1rem;">Simplifier</h3>
-                    <p style="line-height: 1.6; color: #000000;">
+                <div style="flex: 1; min-width: 300px; text-align: center; padding: 1.5rem; border-radius: 8px; background-color: #ffd084; color: #000000;">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Simplifier</h3>
+                    <p style="line-height: 1.6;">
                         L'administration, les processus, les outils, bref tout ce qui est complexe.
                     </p>
                 </div>
-                <div style="flex: 1; min-width: 300px; text-align: center; padding: 1.5rem; border-radius: 8px; background-color: #ffd084;">
-                    <h3 style="color: #ffffff; font-size: 1.5rem; margin-bottom: 1rem;">Innover</h3>
-                    <p style="line-height: 1.6; color: #000000;">
+                <div style="flex: 1; min-width: 300px; text-align: center; padding: 1.5rem; border-radius: 8px; background-color: #78c866; color: #000000;">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Innover</h3>
+                    <p style="line-height: 1.6;">
                         Dans un esprit de co-profitabilité et d'intelligence collective.
                     </p>
                 </div>
@@ -125,68 +129,6 @@
                 <strong>TAM</strong> est un <strong>assignateur d'équité</strong> qui considère la charge mentale et attribue les tâches
                 selon les <strong>intérêts et talents</strong> des personnes en place. Notre objectif : <strong>déployer la force du groupe à travers ses individualités</strong>.
             </p>
-            <h3 style="color: #8536d5; text-align: center; margin-bottom: 1.5rem;">Fonctionnalités clés :</h3>
-            <div style="max-width: 800px; margin: 0 auto;">
-                <ul style="list-style: none; padding: 0;">
-                    <li style="background-color: rgba(136, 39, 236, 0.1); margin-bottom: 0.8rem; padding: 0.8rem 1.5rem; border-left: 4px solid #8e27ec; border-radius: 4px;">
-                        <strong>Gestion des tâches et des échéances</strong> avec prise en compte de la charge mentale.
-                    </li>
-                    <li style="background-color: rgba(133, 54, 213, 0.1); margin-bottom: 0.8rem; padding: 0.8rem 1.5rem; border-left: 4px solid #8536d5; border-radius: 4px;">
-                        <strong>Collaboration en temps réel</strong> pour une gestion collective optimisée.
-                    </li>
-                    <li style="background-color: rgba(161, 108, 217, 0.1); margin-bottom: 0.8rem; padding: 0.8rem 1.5rem; border-left: 4px solid #a16cd9; border-radius: 4px;">
-                        <strong>Tableaux de bord personnalisables</strong> pour suivre les progrès.
-                    </li>
-                    <li style="background-color: rgba(120, 160, 160, 0.1); margin-bottom: 0.8rem; padding: 0.8rem 1.5rem; border-left: 4px solid #78a0a0; border-radius: 4px;">
-                        Intégration avec les <strong>outils existants</strong>.
-                    </li>
-                    <li style="background-color: rgba(165, 210, 210, 0.1); margin-bottom: 0.8rem; padding: 0.8rem 1.5rem; border-left: 4px solid #a5d2d2; border-radius: 4px;">
-                        <strong>Autonomie et apprentissage intégré</strong> pour les utilisateurs.
-                    </li>
-                    <li style="background-color: rgba(61, 199, 201, 0.1); margin-bottom: 0.8rem; padding: 0.8rem 1.5rem; border-left: 4px solid #3dc7c9; border-radius: 4px;">
-                        <strong>Valorisation des talents</strong> et prise en compte des intérêts.
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section "Frise chronologique" -->
-    <section id="timeline" class="section" style="padding: 3rem 0; background-color: #f0f4ff;">
-        <div class="container">
-            <h2 style="color: #8e27ec; text-align: center; margin-bottom: 2rem; font-size: 2rem;">Notre parcours</h2>
-            <div style="max-width: 900px; margin: 0 auto;">
-                <div style="margin-bottom: 2rem; padding-left: 2rem; border-left: 4px solid #8e27ec; background-color: rgba(142, 39, 236, 0.05); padding: 1rem;">
-                    <h3 style="color: #8e27ec; margin-bottom: 0.5rem;">2023 - L'idée naît</h3>
-                    <p style="margin: 0; line-height: 1.6;">
-                        La responsable administrative du Centre des femmes de la Basse-Ville transmet le besoin de migrer l'administration en gestion collective.
-                    </p>
-                </div>
-                <div style="margin-bottom: 2rem; padding-left: 2rem; border-left: 4px solid #8536d5; background-color: rgba(133, 54, 213, 0.05); padding: 1rem;">
-                    <h3 style="color: #8536d5; margin-bottom: 0.5rem;">Mars 2024 - Création des outils</h3>
-                    <p style="margin: 0; line-height: 1.6;">
-                        Création des questionnaires et du premier algorithme sous Excel pour le Lac à l'épaule.
-                    </p>
-                </div>
-                <div style="margin-bottom: 2rem; padding-left: 2rem; border-left: 4px solid #a16cd9; background-color: rgba(161, 108, 217, 0.05); padding: 1rem;">
-                    <h3 style="color: #a16cd9; margin-bottom: 0.5rem;">Décembre 2024 - Choix du nom TAM</h3>
-                    <p style="margin: 0; line-height: 1.6;">
-                        Choix du nom <strong>Tade & Match (TAM)</strong> avec les transilleuses du CFBV.
-                    </p>
-                </div>
-                <div style="margin-bottom: 2rem; padding-left: 2rem; border-left: 4px solid #eea830; background-color: rgba(238, 168, 48, 0.1); padding: 1rem;">
-                    <h3 style="color: #eea830; margin-bottom: 0.5rem;">2025 - Développement</h3>
-                    <p style="margin: 0; line-height: 1.6;">
-                        Conception du logigramme, validation avec les transilleuses, et développement de l'identité visuelle de TAM.
-                    </p>
-                </div>
-                <div style="margin-bottom: 2rem; padding-left: 2rem; border-left: 4px solid #b385dd; background-color: rgba(179, 133, 221, 0.1); padding: 1rem;">
-                    <h3 style="color: #b385dd; margin-bottom: 0.5rem;">Janvier 2026 - Incorporation</h3>
-                    <p style="margin: 0; line-height: 1.6;">
-                        Incorporation de <strong>ReLiance</strong> pour porter le développement et la commercialisation de TAM.
-                    </p>
-                </div>
-            </div>
         </div>
     </section>
 
