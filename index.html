@@ -18,14 +18,42 @@
     <title>ReLiance - Projet TAM | ReLier. Simplifier. Innover.</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Style spécifique pour l'en-tête avec logo élargi */
+        .header-logo-container {
+            background-color: #000000;
+            width: 100%;
+            padding: 2rem 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo-wrapper {
+            width: 100%;
+            max-width: 600px; /* Ajuste cette valeur pour élargir ou rétrécir le logo */
+            display: flex;
+            justify-content: center;
+        }
+        .logo-wrapper img {
+            max-width: 100%;
+            height: auto;
+        }
+        .header-text-container {
+            background-color: #b9f1aa;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <!-- En-tête avec logo et slogan -->
-    <header style="background: #b9f1aa; padding: 2rem 0; text-align: center;">
-        <div class="container">
-            <div style="background-color: #000000; padding: 1.5rem; display: inline-block; margin-bottom: 1rem;">
-                <img src="images/logo-reliance.png" alt="Logo ReLiance" style="max-width: 250px;">
+    <!-- En-tête avec logo ReLiance élargi sur fond noir -->
+    <header>
+        <div class="header-logo-container">
+            <div class="logo-wrapper">
+                <img src="images/logo-reliance.png" alt="Logo ReLiance">
             </div>
+        </div>
+        <div class="header-text-container">
             <h1 style="margin: 0; font-size: 2.5rem; font-weight: 700; color: #000000;">ReLiance</h1>
             <p class="tagline" style="font-size: 1.2rem; margin-top: 0.5rem; color: #000000; opacity: 0.9;">ReLier. Simplifier. Innover.</p>
         </div>
@@ -123,7 +151,7 @@
         </div>
     </section>
 
-    <!-- Section "Frise chronologique" (simplifiée) -->
+    <!-- Section "Frise chronologique" -->
     <section id="timeline" class="section" style="padding: 3rem 0; background-color: #f0f4ff;">
         <div class="container">
             <h2 style="color: #8e27ec; text-align: center; margin-bottom: 2rem; font-size: 2rem;">Notre parcours</h2>
@@ -162,10 +190,10 @@
         </div>
     </section>
 
-    <!-- Pied de page -->
+    <!-- Pied de page avec fond noir -->
     <footer style="background-color: #000000; color: white; padding: 2rem 0; text-align: center;">
         <div class="container">
-            <div style="background-color: #000000; padding: 1rem; display: inline-block; margin-bottom: 1rem;">
+            <div style="background-color: #000000; padding: 1rem; display: flex; justify-content: center;">
                 <img src="images/logo-reliance.png" alt="Logo ReLiance" style="max-width: 150px;">
             </div>
             <p style="margin: 1rem 0;">© 2026 ReLiance. Tous droits réservés.</p>
