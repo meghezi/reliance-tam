@@ -19,49 +19,67 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        /* Style pour l'en-tête */
-        .header-full {
+        /* Réinitialisation des marges et paddings par défaut */
+        body, html {
+            margin: 0;
+            padding: 0;
             width: 100%;
-            text-align: center;
         }
-        .logo-container {
+
+        /* En-tête complet */
+        .full-header {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Conteneur du logo avec fond noir sur toute la largeur */
+        .logo-full-width {
             background-color: #000000;
             width: 100%;
             padding: 2rem 0;
+            margin: 0;
             display: flex;
             justify-content: center;
         }
-        .logo-wrapper {
+
+        /* Conteneur du logo (centré, taille ajustable) */
+        .logo-center {
             width: 100%;
-            max-width: 600px;
+            max-width: 800px; /* Ajuste cette valeur pour la taille du logo */
             display: flex;
             justify-content: center;
         }
-        .logo-wrapper img {
+
+        /* Image du logo */
+        .logo-center img {
             max-width: 100%;
             height: auto;
         }
-        .text-container {
+
+        /* Conteneur du texte avec fond rose sur toute la largeur */
+        .text-full-width {
             background-color: #b9f1aa;
             width: 100%;
             padding: 1.5rem 0;
+            margin: 0;
             text-align: center;
         }
     </style>
 </head>
 <body>
-    <!-- En-tête avec logo ReLiance élargi sur fond noir et texte sur fond rose -->
-    <header class="header-full">
-        <div class="logo-container">
-            <div class="logo-wrapper">
+    <!-- En-tête complet : logo sur fond noir + texte sur fond rose -->
+    <div class="full-header">
+        <div class="logo-full-width">
+            <div class="logo-center">
                 <img src="images/logo-reliance.png" alt="Logo ReLiance">
             </div>
         </div>
-        <div class="text-container">
+        <div class="text-full-width">
             <h1 style="margin: 0; font-size: 2.5rem; font-weight: 700; color: #000000;">ReLiance</h1>
-            <p class="tagline" style="font-size: 1.2rem; margin-top: 0.5rem; color: #000000; opacity: 0.9;">ReLier. Simplifier. Innover.</p>
+            <p style="margin: 0.5rem 0 0; font-size: 1.2rem; color: #000000; opacity: 0.9;">ReLier. Simplifier. Innover.</p>
         </div>
-    </header>
+    </div>
 
     <!-- Section "Qui sommes-nous ?" -->
     <section id="about" class="section" style="background-color: #ffffff; padding: 3rem 0;">
@@ -133,7 +151,7 @@
     </section>
 
     <!-- Pied de page avec fond noir -->
-    <footer style="background-color: #000000; color: white; padding: 2rem 0; text-align: center;">
+    <footer style="background-color: #000000; color: white; padding: 2rem 0; text-align: center; margin: 0;">
         <div class="container">
             <div style="background-color: #000000; padding: 1rem; display: flex; justify-content: center;">
                 <img src="images/logo-reliance.png" alt="Logo ReLiance" style="max-width: 150px;">
