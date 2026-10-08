@@ -34,7 +34,9 @@ Avez-vous des plans évènements avec des objectifs comme on peut avoir des plan
 Je reviendrais vous faire des retours de coups de cœur cette fois-ci et de réflexions sur les événements auxquels ReLiance aura participé. Peut-être même allons-nous vous y croiser ?
  
 </div>
- Texte écrit par Isabelle Naton sans l'aide de l'IA mais avec celle de Sébastien :)
+
+ Texte écrit par Isabelle Naton sans l'aide de l'IA mais avec celle de Sébastien Meghezi :)
+ 
 <!--
 <div class="post-source">
   <em>Source : <a href="https://www.linkedin.com/posts/reliance-worktech_cest-une-grande-joie-douvrir-officiellement-activity-7510790509100191744-lmH5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA8UiIwBPwz4AiKXqFpF7jnrtBdLw41dwtY" target="_blank">Consulter la publication originale sur LinkedIn</a></em>
