@@ -39,11 +39,10 @@ Et si nous commencions par mieux connaître et révéler les talents qui nous en
 
  Texte écrit par Isabelle Naton sans l'aide de l'IA mais avec celle de Sébastien Meghezi :)
  
-<!--
 <div class="post-source">
-  <em>Source : <a href="https://www.linkedin.com/posts/reliance-worktech_cest-une-grande-joie-douvrir-officiellement-activity-7510790509100191744-lmH5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA8UiIwBPwz4AiKXqFpF7jnrtBdLw41dwtY" target="_blank">Consulter la publication originale sur LinkedIn</a></em>
+  <em>Source : <a href="https://lnkd.in/p/gFq6-mwk" target="_blank">Consulter la publication originale sur LinkedIn</a></em>
 </div>
--->
+
 
 <!-- 
 Ceci est un commentaire sur plusieurs lignes. : <!-- -->
