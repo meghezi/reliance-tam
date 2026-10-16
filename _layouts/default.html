@@ -103,6 +103,17 @@
         }
     </style>
 </head>
+
+<script>
+  document.querySelectorAll('a[href^="http"]').forEach(function(link) {
+    //Pour ouvrir les liens hypertextes dans un nouvel onglet. Ne touche pas les liens internes au site
+    if (link.hostname !== window.location.hostname) {
+      link.target = '_blank';
+      link.rel = 'noopener';
+    }
+  });
+</script>
+    
 <body>
     <div class="header-block">
         <div class="logo-black-bg">
