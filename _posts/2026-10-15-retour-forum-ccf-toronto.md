@@ -13,7 +13,7 @@ Je rentre tout juste de Toronto et je vous livre à chaud mon retour sur cet év
 
 Les allocutions, causeries et tables rondes se sont enchaînées, laissant trop peu de temps pour les échanges individuels, mais l'organisation, la nourriture et les interprètes étaient au top !
 
-### Les points forts
+### Les points forts: 3 études de cas
 * Celle de la [Commission de la construction du Québec (CCQ)](https://www.linkedin.com/company/commission-de-construction-du-quebec/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BYCbP6BxAQj6t2dsEZqooEQ%3D%3D)
 * Celle de l’OBNL [Jobs for the Future (JFF)](https://www.linkedin.com/company/jobs-for-the-future/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BYCbP6BxAQj6t2dsEZqooEQ%3D%3D) aux USA
 * Et celle de [Jobs and Skills Australia](https://www.linkedin.com/company/jobs-skills-australia/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BYCbP6BxAQj6t2dsEZqooEQ%3D%3D)
@@ -33,7 +33,7 @@ Comme a dit le sous-ministre de l’Emploi et du Développement social, Paul Tho
 Si cela vous intéresse, Jobs and Skills Australia organise le webinaire «[Plus d'une façon de trouver une compétence](https://lnkd.in/gHnvmy6y)», ce mercredi 21 octobre (de 22h15 à 23h à cause du décalage horaire).
 
 <div class="next-step-box" markdown="1">
-**Suggestion pour vous**  
+**Suggestion**  
 Et si nous commencions par mieux connaître et révéler les talents qui nous entourent ?
 </div>
 
